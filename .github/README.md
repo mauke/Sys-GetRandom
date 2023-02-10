@@ -5,8 +5,9 @@ Sys::GetRandom - Perl interface to getrandom(2)
 # SYNOPSIS
 
 ```perl
-use Sys::GetRandom qw(getrandom GRND_NONBLOCK GRND_RANDOM);
+use Sys::GetRandom qw(getrandom random_bytes GRND_NONBLOCK GRND_RANDOM);
 my $n = getrandom($buf, $count, $flags, $offset);
+my $bytes = random_bytes($count);
 ```
 
 # DESCRIPTION
