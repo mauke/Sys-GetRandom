@@ -1,0 +1,14 @@
+/*.tar.gz
+/MANIFEST.bak
+/META.json
+/META.yml
+/MYMETA.json
+/MYMETA.yml
+/Makefile
+/blib/
+/pm_to_blib
+/GetRandom.c
+/GetRandom.s
+.*.sw?
+*.[oi]
+*.bs
